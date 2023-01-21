@@ -53,7 +53,7 @@ if __name__ == '__main__':
         else:
             voice_sel = [selected_voice]
 
-        voice_samples, conditioning_latents = load_voices(voice_sel)
+        voice_samples, conditioning_latents = load_voices(Andrew)
         all_parts = []
         for j, text in enumerate(texts):
             if regenerate is not None and j not in regenerate:
